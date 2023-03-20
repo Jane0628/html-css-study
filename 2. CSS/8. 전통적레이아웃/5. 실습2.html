@@ -10,9 +10,9 @@
 
     <style>
         section {
-            width: 1000px;
+            width: 800px;
             border: 4px double blue;
-            margin: 10px auto 0;
+            margin: 50px auto 0;
         }
 
         h1 {
@@ -37,14 +37,15 @@
         }
 
         .gallery {
-            padding: 30px 0;
+            padding: 20px 0 20px 1%;
             background: gray;
             border-top: 2px groove white;
         }
 
         .gallery li {
             width: 23.75%;
-            margin-left: 1%;
+            height: 317px;
+            margin-right: 1%;
             font-weight: bold;
             line-height: 1.2em;
             border: 1px solid white;
@@ -53,24 +54,51 @@
 
         .gallery li h2 {
             margin: 5px;
-            height: 190px;
+            height: 150px;
             border: 1px solid white;
             background-repeat: no-repeat;
             background-size: cover;
-            background-position: bottom left;
-
         }
-
+        
+        .gallery li p {
+            padding: 20px;
+        }
+        
         #tulip {
             background: red;
         }
-
+        
         #tulip h2 {
             background-image: url(./images/tulip.jpg);
+            background-position: bottom left;
         }
 
-        #tulip p {
-            padding: 20px;
+        #jebi {
+            background: darkorchid;
+        }
+
+        #jebi h2 {
+            background-image: url(./images/jebi.jpg);
+            background-position: bottom left;
+        }
+
+        #hobak {
+            background: orangered;
+        }
+
+        #hobak h2 {
+            background-image: url(./images/hobak.jpg);
+            background-position: 30%;
+        }
+
+        #sunflower {
+            margin: 0;
+            background: yellow;
+        }
+
+        #sunflower h2 {
+            background-image: url(./images/sunflower.jpg);
+            background-position: 60%;
         }
 
         .clearfix::after {
