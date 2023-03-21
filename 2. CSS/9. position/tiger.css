@@ -1,0 +1,77 @@
+@import url('../../common.css');
+
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'Gulim';
+}
+
+#wrapper {
+    width: 850px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-family: 'TheJamsil5Bold', cursive;
+    font-size: 30px;
+    color: #CCCA38;
+    text-align: center;
+    background: #143654;
+}
+
+header h1 strong {
+    font-size: 100px;
+    color: white;
+}
+
+header h1 span {
+    font-size: 40px;
+}
+
+header h1 em {
+    font-size: 65px;
+    color: #CCCCCC;
+}
+
+.menu {
+    width: 20%;
+    height: 526px;
+    text-decoration: underline;
+    line-height: 2.2;
+    background: #CCCCCC;
+    padding: 20px;
+    float: left;
+}
+
+.content {
+    width: 80%;
+    float: right;
+}
+
+.content h2 {
+    font-family: cursive;
+    font-size: 30px;
+    color: #EEEC43;
+    background: #8C030E;
+    padding: 5px 20px;
+}
+
+.content p {
+    background: white;
+    padding: 20px;
+    text-align: justify;
+}
+
+footer {
+    background: #AAAAAA;
+    padding: 10px 20px;
+}
