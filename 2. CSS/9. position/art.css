@@ -1,0 +1,142 @@
+@import url(../../common.css);
+
+body {
+    background: gray;
+}
+
+#wrapper {
+    width: 80%;
+    background: white;
+    margin: 0 auto;
+}
+
+header {
+    display: block;
+    text-align: center;
+}
+
+header h1 {
+    background: orange;
+    color: white;
+    font-size: 85px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+header h1 span {
+    display: block;
+    line-height: 10px;
+    font-size: 16px;
+    padding: 25px 0 5px;
+}
+
+header .stit {
+    font-size: 11px;
+    padding: 5px;
+    background: lightgray;
+}
+
+.container {
+    display: block;
+}
+
+.container .side-menu {
+    width: 25%;
+    float: left;
+    line-height: 2;
+}
+
+.container .side-menu h3 {
+    background: rgb(124, 8, 8);
+    color: white;
+    font-size: 15px;
+    padding: 3px 10px;
+}
+
+.container .side-menu ul li {
+    padding: 3px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container .side-menu ul li:hover {
+    border-bottom: black dotted;
+}
+
+.container .main-content {
+    width: 50%;
+    padding: 10px 10px 0;
+    background: gainsboro;
+    float: left;
+}
+
+.container .main-content .art-piece {
+    padding: 10px 0;
+}
+
+.container .main-content .art-piece .title {
+    background: darkblue;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 7px;
+}
+
+.container .main-content .art-piece .title:hover {
+    text-decoration: underline;
+}
+
+.container .main-content .art-piece .artist {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 3em;
+}
+
+.container .main-content .art-piece .detail {
+    font-size: 5px;
+}
+
+.container .banner {
+    width: 25%;
+    float: left;
+    padding: 15px;
+}
+
+.container .banner h3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5em;
+    padding-bottom: 20px;
+}
+
+.container .banner .all {
+    display: block;
+    color: gray;
+    text-decoration: underline;
+}
+
+.container .banner .love {
+    display: block;
+    color: orange;
+    text-decoration: underline;
+}
+
+.container .banner .link a {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container .banner .link span {
+    display: block;
+    font-size: 11px;
+    line-height: 1.7em;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+}
